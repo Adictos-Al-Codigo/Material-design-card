@@ -24,4 +24,18 @@
     <string name="secondary_text3">En Spotify, puedes explorar la diversidad de la música electrónica, desde sus raíces en el techno y el house hasta subgéneros como el trance, el drum and bass, el dubstep y el EDM. Descubre los artistas que han influido en la evolución del género, desde pioneros como Kraftwerk y Giorgio Moroder hasta iconos modernos como Daft Punk, Calvin Harris y David Guetta."
     </string>
 
+    <!-- Hip Hop -->
+
+    <string name="content_description_media4">Hip Hop</string>
+    <string name="title4">Hip Hop</string>
+    <string name="secondary_text4">Sumérgete en el vibrante mundo del hip hop en Spotify, un género musical que nació en las calles de Nueva York en los años 70 y se ha convertido en una poderosa fuerza cultural a nivel global. El hip hop combina rimas ingeniosas y ritmos contagiosos, creando una expresión artística que ha influido en la música, la moda, el arte y la sociedad"
+    </string>
+
+    <!-- Rock -->
+
+    <string name="content_description_media5">Rock</string>
+    <string name="title5">Rock</string>
+    <string name="secondary_text5">
+        "Sumérgete en el enérgico mundo del rock en Spotify, un género musical poderoso y diverso que ha dejado una huella indeleble en la historia de la música. Desde sus raíces en los años 50 hasta su evolución y fusión con otros estilos a lo largo de las décadas, el rock ha sido un vehículo de expresión para la rebeldía, la pasión y la autenticidad.
+    </string>
 </resources>

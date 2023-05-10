@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnElectronica,btnPunk,btnFestivalbar;
+    Button btnElectronica,btnPunk,btnFestivalbar, btnHiphop, btnRock;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         btnElectronica = findViewById(R.id.btnElectronica);
         btnPunk = findViewById(R.id.btnPunk);
         btnFestivalbar = findViewById(R.id.btnFestivarbar);
+        btnHiphop = findViewById(R.id.btnHiphop);
+        btnRock = findViewById(R.id.btnRock);
 
         btnElectronica.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,10 +38,23 @@ public class MainActivity extends AppCompatActivity {
         btnFestivalbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Seleccionaste el Método Festival Bar =)",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Seleccionaste el Genero Festival Bar =)",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        btnHiphop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"Seleccionaste el Género de Hip Hop =)",Toast.LENGTH_SHORT).show();
             }
         });
 
 
+        btnRock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"Seleccinaste el Género de Rock. =)",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
