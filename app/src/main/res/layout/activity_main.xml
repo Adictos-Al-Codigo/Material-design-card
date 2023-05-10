@@ -33,6 +33,7 @@
                     android:orientation="vertical">
 
                     <!-- Media -->
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="194dp"
@@ -40,6 +41,13 @@
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/content_description_media"
                         />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:progressTint="#F2FE00"
+                        android:layout_marginLeft="65dp"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -54,14 +62,14 @@
                             android:text="@string/title"
                             android:textAppearance="?attr/textAppearanceTitleMedium"
                             />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="@string/secondary_text"
                             android:textAppearance="?attr/textAppearanceBodyMedium"
-                            android:textColor="?android:attr/textColorSecondary"
-                            />
+                            android:textColor="?android:attr/textColorSecondary" />
 
                     </LinearLayout>
 
@@ -108,6 +116,14 @@
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/content_description_media2"
                         />
+
+
+                    <RatingBar
+                        android:id="@+id/ratingBar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:progressTint="#F2FE00"
+                        android:layout_marginLeft="65dp"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -164,6 +180,7 @@
                 app:strokeWidth="3dp"
                 >
 
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -177,6 +194,13 @@
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/content_description_media3"
                         />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:progressTint="#F2FE00"
+                        android:layout_marginLeft="65dp"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -247,6 +271,13 @@
                         android:contentDescription="@string/content_description_media4"
                         />
 
+                    <RatingBar
+                        android:id="@+id/ratingBar4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:progressTint="#F2FE00"
+                        android:layout_marginLeft="65dp"/>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -315,6 +346,13 @@
                         android:scaleType="centerCrop"
                         android:contentDescription="@string/content_description_media5"
                         />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:progressTint="#F2FE00"
+                        android:layout_marginLeft="65dp"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
