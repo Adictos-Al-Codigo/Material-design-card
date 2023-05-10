@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">material-framework2</string>
+    <string name="action_1">¡Escuchar Ahora!</string>
+
+
+    <!-- Festival bar -->
+
+    <string name="content_description_media">Festival Bar</string>
+    <string name="title">Festival Bar</string>
+    <string name="secondary_text">Revive la experiencia del público cantando y bailando junto a los artistas mientras se presentan en el escenario, y sumérgete en el ambiente del Festival Bar con entrevistas exclusivas y presentaciones de videos musicales. Encuentra los éxitos de los artistas que se presentaron en el Festival Bar en nuestra selección de playlists, y disfruta de la música que marcó una generación en Italia."
+    </string>
+
+    <!-- Punk -->
+
+    <string name="content_description_media2">Punk</string>
+    <string name="title2">Punk</string>
+    <string name="secondary_text2">Sumérgete en el mundo del punk con nuestras playlists temáticas, que incluyen clásicos del punk, punk rock californiano, ska punk, punk pop y mucho más. También puedes descubrir nuevas bandas emergentes en el género, y mantenerte al día con las últimas novedades del mundo punk."
+    </string>
+
+    <!-- Electronica -->
+
+    <string name="content_description_media3">Electrónica</string>
+    <string name="title3">Electrónica</string>
+    <string name="secondary_text3">En Spotify, puedes explorar la diversidad de la música electrónica, desde sus raíces en el techno y el house hasta subgéneros como el trance, el drum and bass, el dubstep y el EDM. Descubre los artistas que han influido en la evolución del género, desde pioneros como Kraftwerk y Giorgio Moroder hasta iconos modernos como Daft Punk, Calvin Harris y David Guetta."
+    </string>
+
+</resources>
